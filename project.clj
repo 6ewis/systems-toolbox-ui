@@ -1,4 +1,4 @@
-(defproject matthiasn/systems-toolbox-ui "0.5.5"
+(defproject matthiasn/systems-toolbox-ui "0.5.6"
   :description "UI components for systems-toolbox"
   :url "https://github.com/matthiasn/systems-toolbox"
   :license {:name "Eclipse Public License"
@@ -10,5 +10,6 @@
                  [org.clojure/clojurescript "1.7.228"]
                  [reagent "0.6.0-alpha"]]
 
-  :plugins [[lein-codox "0.9.4" :exclusions [org.clojure/clojure]]
+  :plugins [[lein-codox "0.9.4"]
+            [test2junit "1.2.1"]
             [lein-cljsbuild "1.1.2"]])
